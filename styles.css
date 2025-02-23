@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #F5F5F5;
+    color: #1A1A1A;
+}
+
+header {
+    background-color: #1A1A1A;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #F28C38;
+    margin: 0;
+    font-size: 24px;
+}
+
+nav a {
+    color: #C0C0C0;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #4CAF50;
+}
+
+#hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #FFFFFF;
+}
+
+#hero h2 {
+    color: #F28C38;
+    font-size: 36px;
+}
+
+#hero p {
+    font-size: 18px;
+}
+
+#hero button {
+    background-color: #F28C38;
+    color: #FFFFFF;
+    border: 2px solid #C0C0C0;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#hero button:hover {
+    background-color: #4CAF50;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+h3 {
+    color: #F28C38;
+    text-align: center;
+}
+
+.highlight-silver {
+    color: #C0C0C0;
+}
+
+.service-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service {
+    background-color: #FFFFFF;
+    padding: 20px;
+    width: 250px;
+    border: 1px solid #C0C0C0;
+}
+
+.service h4 {
+    color: #4CAF50;
+}
+
+#contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #C0C0C0;
+}
+
+#contact button {
+    background-color: #F28C38;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px;
+}
+
+#contact button:hover {
+    background-color: #4CAF50;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1A1A1A;
+    color: #C0C0C0;
+}

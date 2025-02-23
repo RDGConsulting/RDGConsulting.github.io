@@ -1,7 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RDGConsulting - Sales & Growth Expertise</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-  <h1>Welcome to RDGConsulting!</h1>
-  <p>Test page from the E: drive!</p>
+    <header>
+        <h1>RDGConsulting</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Driving Sales & Growth</h2>
+        <p>Expert coaching to turn your strategy into results.</p>
+        <button onclick="scrollToContact()">Get Started</button>
+    </section>
+
+    <section id="about">
+        <h3>About Rolf Gøtze</h3>
+        <p>Founder of <span class="highlight-silver">RDGConsulting</span>. With years in sales leadership, I help businesses optimize teams and boost profits through practical, results-driven solutions.</p>
+    </section>
+
+    <section id="services">
+        <h3>Services</h3>
+        <div class="service-grid">
+            <div class="service">
+                <h4>Sales Development</h4>
+                <p>Refine strategies to increase efficiency and revenue.</p>
+            </div>
+            <div class="service">
+                <h4>Client Service Optimization</h4>
+                <p>Turn client care into a proactive sales partner.</p>
+            </div>
+            <div class="service">
+                <h4>Leadership Support</h4>
+                <p>Sparring to align teams and execute plans.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h3>Contact Me</h3>
+        <form id="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 RDGConsulting. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
