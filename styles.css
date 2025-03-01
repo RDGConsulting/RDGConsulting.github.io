@@ -1,10 +1,13 @@
-body {
+html, body {
     margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
     font-family: 'Lato', sans-serif;
     background-color: #F5F5F5;
     color: #1A1A1A;
     line-height: 1.6;
-    overflow-x: hidden; /* Prevent horizontal scroll */
+    overflow-x: hidden;
 }
 
 header {
@@ -43,7 +46,7 @@ nav a:hover {
 #hero {
     background: linear-gradient(90deg, #1A1A1A 0%, #F28C38 100%);
     height: 100vh;
-    width: 100vw; /* Full viewport width */
+    width: 100%; /* Changed to 100% with body fixes */
     margin: 0;
     padding: 0;
     display: flex;
@@ -53,6 +56,8 @@ nav a:hover {
     color: #FFFFFF;
     position: relative;
     overflow: hidden;
+    left: 0;
+    right: 0;
 }
 
 .hero-content {
@@ -65,12 +70,12 @@ nav a:hover {
 #hero h2 {
     font-size: 72px;
     font-weight: 900;
-    color: #C0C0C0; /* Silver */
+    color: #C0C0C0;
     text-shadow: 
         -2px -2px 0 #F28C38,  
         2px -2px 0 #F28C38,  
         -2px 2px 0 #F28C38,  
-        2px 2px 0 #F28C38; /* Tilted outline effect */
+        2px 2px 0 #F28C38;
     margin-bottom: 25px;
     animation: techBurst 1.5s ease-out;
 }
